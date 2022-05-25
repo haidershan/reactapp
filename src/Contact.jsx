@@ -30,22 +30,10 @@ const Contact = () => {
                         <div className="col-lg-6 col-12">
                             <div className="contact-form">
                                 <h2 className="mb-4">Interested to work together? Let's talk</h2>
-                                <form method="POST">
-                                    <div className="row">
-                                        <div className="col-lg-6 col-12">
-                                        <input onChange={HandleInputs} name="Name" type="text" className="form-control " required="required" placeholder="Your Name" />
-                                        </div>
-                                        <div className="col-lg-6 col-12">
-                                        <input onChange={HandleInputs} name="Email" type="text" className="form-control " required="required" placeholder="Your Email" />
-                                        </div>
-                                        <div className="col-12">
-                                        <textarea onChange={HandleInputs} name="Message" required="required" className="form-control" style={{ minHeight: '150px' }} placeholder="Message" defaultValue={""} />
-                                        </div>
-                                        <div className="ml-lg-auto col-lg-5 col-12">
-                                        <button type="submit" onClick={Submitdata} className="btn btn-info btn-block btn-lg">SUBMIT</button>
-                                        </div>
-                                    </div>
-                                </form>
+                                <h3 className="mb-4">Send email or contact me on my phone number</h3>
+                                <h3 className="mb-4">Details are here</h3>
+                                    
+                                
                             </div>
                         </div>
                     </div>

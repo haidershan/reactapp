@@ -3,10 +3,12 @@ import About from "./About";
 import Contact from "./Contact";
 import Features from "./Features";
 import Footer from "./Footer";
-import Footer1 from "./Footer1";
+import Footer1 from "./Footer1"; 
 import NavBar from "./NavBar";
 import Project from "./Project";
-const App=()=> {
+
+const App =()=> {
+
   return (
     <>
     <NavBar />
